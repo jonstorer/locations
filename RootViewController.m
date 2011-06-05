@@ -61,7 +61,33 @@
 	
 	// Start the location manager.
 	[[self locationManager] startUpdatingLocation];
+	
+	NSFetchRequest *request = [[NSFetchRequest alloc] init];
+	NSEntityDescription *entity = [NSEntityDescription entityForName:@"Event" inManagedObjectContext:managedObjectContext];
+	[request setEntity:entity];
+	
+	NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"creationDate" ascending:NO];
+	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+	[request setSortDescriptors:sortDescriptors];
+	[sortDescriptors release];
+	[sortDescriptor release];
 
+	NSError *error = nil;
+	NSMutableArray *mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
+	if(mutableFetchResults == nil){
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" 
+														message:@"There was an error." 
+													   delegate:nil 
+											  cancelButtonTitle:@"Ok"
+											  otherButtonTitles:nil];
+		[alert autorelease];
+		[alert show];
+		//Handle Error
+	}
+	
+	[self setEventsArray:mutableFetchResults];
+	[mutableFetchResults release];
+	[request release];
 }
 
 - (void)viewDidUnload {
@@ -85,7 +111,7 @@
 	}
 	
 	Event *event = (Event *)[NSEntityDescription insertNewObjectForEntityForName:@"Event" inManagedObjectContext:managedObjectContext];
-	
+
 	CLLocationCoordinate2D coordinate = [location coordinate];
 	
 	[event setLatitude:[NSNumber numberWithDouble:coordinate.latitude]];
