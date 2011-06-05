@@ -175,4 +175,23 @@
 	return cell;
 }
 
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+	if (editingStyle == UITableViewCellEditingStyleDelete) {
+
+		// Stage deleting the managed object at the given index path.
+		NSManagedObject *eventToDelete = [eventsArray objectAtIndex:indexPath.row];
+		[managedObjectContext deleteObject:eventToDelete];
+		
+		// Update the array and table view.
+		[eventsArray removeObjectAtIndex:indexPath.row];
+		[tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
+		
+		// Commit the change.
+		NSError *error = nil;
+		if (![managedObjectContext save:&error]){
+			//Handle the error.
+		}
+	}
+		
+}
 @end
