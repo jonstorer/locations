@@ -21,5 +21,6 @@
 
 @property (nonatomic, retain) UIBarButtonItem *addButton;
 
-@end
+- (void)addEvent;
 
+@end

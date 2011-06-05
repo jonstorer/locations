@@ -17,6 +17,7 @@
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		FC1CBBF2139B231A00CC979D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1CBBF1139B231A00CC979D /* RootViewController.m */; };
 		FC1CBC7E139B3CC600CC979D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1CBC7D139B3CC600CC979D /* CoreLocation.framework */; };
+		FC684535139B9D7200DC8F26 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = FC684534139B9D7200DC8F26 /* Event.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +33,11 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Locations_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locations_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Locations-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Locations-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		FC1CBBF0139B231A00CC979D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		FC1CBBF1139B231A00CC979D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		FC1CBBF0139B231A00CC979D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		FC1CBBF1139B231A00CC979D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 		FC1CBC7D139B3CC600CC979D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC684533139B9D7200DC8F26 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		FC684534139B9D7200DC8F26 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FC1CBBF0139B231A00CC979D /* RootViewController.h */,
+				FC1CBBF1139B231A00CC979D /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* LocationsAppDelegate.h */,
 				1D3623250D0F684500981E51 /* LocationsAppDelegate.m */,
 			);
@@ -78,9 +83,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				FC1CBBF0139B231A00CC979D /* RootViewController.h */,
-				FC1CBBF1139B231A00CC979D /* RootViewController.m */,
-				FC1CBC7D139B3CC600CC979D /* CoreLocation.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -107,6 +109,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC1CBC7D139B3CC600CC979D /* CoreLocation.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -179,6 +182,7 @@
 				1D3623260D0F684500981E51 /* LocationsAppDelegate.m in Sources */,
 				28193060112F816700ECF9B4 /* Locations.xcdatamodeld in Sources */,
 				FC1CBBF2139B231A00CC979D /* RootViewController.m in Sources */,
+				FC684535139B9D7200DC8F26 /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +271,8 @@
 			isa = XCVersionGroup;
 			children = (
 				28C3AD890F43EF2300507BA6 /* Locations.xcdatamodel */,
+				FC684533139B9D7200DC8F26 /* Event.h */,
+				FC684534139B9D7200DC8F26 /* Event.m */,
 			);
 			currentVersion = 28C3AD890F43EF2300507BA6 /* Locations.xcdatamodel */;
 			path = Locations.xcdatamodeld;
