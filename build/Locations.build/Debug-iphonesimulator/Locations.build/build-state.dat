@@ -1,285 +1,0 @@
-TLocations
-v7
-r0
-t328941651.254919
-cCheck dependencies
-cProcessInfoPlistFile /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Info.plist Locations-Info.plist
-cCompileXIB /Users/jon/Code/Locations/MainWindow.xib
-cProcessPCH /var/folders/WG/WGwXclq3EpiVtnRWyHnzf++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-atxjhroumzcewzdihaopxjgndloj/Locations_Prefix.pch.gch Locations_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cDataModelVersionCompile /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations.momd /Users/jon/Code/Locations/Locations.xcdatamodeld
-cCompileC build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/main.o /Users/jon/Code/Locations/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/LocationsAppDelegate.o /Users/jon/Code/Locations/Classes/LocationsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/RootViewController.o /Users/jon/Code/Locations/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations normal i386
-cGenerateDSYMFile /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app.dSYM /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations
-cTouch /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-c000000004D5C9B4E0000000000000110
-t1297914702
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004D54D02800000000001D6EC0
-t1297403944
-s1928896
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004D54D01A000000000000046B
-t1297403930
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004D54CFFA00000000002999B0
-t1297403898
-s2726320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004D54DEBC00000000000778F0
-t1297407676
-s489712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004D54DEB600000000000001D0
-t1297407670
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D54CFE5000000000029DA70
-t1297403877
-s2742896
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D54CFB80000000000001466
-t1297403832
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004D5615B40000000000000AA1
-t1297487284
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004D5616030000000000766870
-t1297487363
-s7759984
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
-c000000004D4F7A2B0000000000001B19
-t1297054251
-s6937
-
-N/Users/jon/Code/Locations/Classes/LocationsAppDelegate.h
-c000000004DEAF4C400000000000003D3
-t1307243716
-s979
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/jon/Code/Locations/Classes/LocationsAppDelegate.m
-c000000004DEB08D0000000000000206A
-t1307248848
-s8298
-i"LocationsAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/jon/Code/Locations/Locations.xcdatamodeld
-c000000004DEAE8850000000000000088
-t1307240581
-s136
-
-N/Users/jon/Code/Locations/Locations_Prefix.pch
-c000000004DEAE8850000000000000166
-t1307240581
-s358
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/jon/Code/Locations/MainWindow.xib
-c000000004DEAE88500000000000021D1
-t1307240581
-s8657
-
-N/Users/jon/Code/Locations/RootViewController.h
-c000000004DEB05070000000000000221
-t1307247879
-s545
-i<CoreLocation/CoreLocation.h>
-
-N/Users/jon/Code/Locations/RootViewController.m
-c000000004DEAFCB5000000000000068E
-t1307245749
-s1678
-i"RootViewController.h"
-
-N/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app
-t1307248851
-s238
-
-N/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app.dSYM
-t1307248851
-s102
-
-N/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Info.plist
-t1307243433
-s599
-
-N/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations
-t1307248851
-s25260
-
-N/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations.momd
-t1307243435
-s136
-
-N/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/MainWindow.nib
-t1307243434
-s1533
-
-N/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/PkgInfo
-t1307243433
-s8
-
-N/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/Locations.LinkFileList
-c000000004DEAF3A90000000000000171
-t1307243433
-s369
-
-N/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/LocationsAppDelegate.o
-t1307248851
-s66444
-
-N/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/RootViewController.o
-t1307247893
-s53528
-
-N/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/main.o
-t1307243435
-s6284
-
-N/Users/jon/Code/Locations/main.m
-c000000004DEAE8850000000000000167
-t1307240581
-s359
-i<UIKit/UIKit.h>
-
-N/var/folders/WG/WGwXclq3EpiVtnRWyHnzf++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-atxjhroumzcewzdihaopxjgndloj/Locations_Prefix.pch.gch
-t1307243435
-s16679120
-
-NLocations-Info.plist
-c000000004DEAE885000000000000038D
-t1307240581
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies328941650#328941650#0(0"0(0#1#0"8607590048#0"0#
-
-CCompileC build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/LocationsAppDelegate.o /Users/jon/Code/Locations/Classes/LocationsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s328941650.977432
-e328941651.199219
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/LocationsAppDelegate.o
-x/Users/jon/Code/Locations/Classes/LocationsAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/jon/Code/Locations/Classes/LocationsAppDelegate.m328941651#328941651#0(0"0(0#0#56"/Users/jon/Code/Locations/Classes/LocationsAppDelegate.m8028075772393507840#1851"    cd /Users/jon/Code/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-generated-files.hmap -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-own-target-headers.hmap -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-all-target-headers.hmap -iquote /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-project-headers.hmap -F/Users/jon/Code/Locations/build/Debug-iphonesimulator -I/Users/jon/Code/Locations/build/Debug-iphonesimulator/include -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/DerivedSources/i386 -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/DerivedSources -include /var/folders/WG/WGwXclq3EpiVtnRWyHnzf++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-atxjhroumzcewzdihaopxjgndloj/Locations_Prefix.pch -c /Users/jon/Code/Locations/Classes/LocationsAppDelegate.m -o /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/LocationsAppDelegate.o0#
-
-CCompileC build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/RootViewController.o /Users/jon/Code/Locations/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s328940693.836430
-e328940693.982841
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/RootViewController.o
-x/Users/jon/Code/Locations/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/jon/Code/Locations/RootViewController.m328940693#328940693#0(0"0(0#0#46"/Users/jon/Code/Locations/RootViewController.m8619641856#1839"    cd /Users/jon/Code/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-generated-files.hmap -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-own-target-headers.hmap -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-all-target-headers.hmap -iquote /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-project-headers.hmap -F/Users/jon/Code/Locations/build/Debug-iphonesimulator -I/Users/jon/Code/Locations/build/Debug-iphonesimulator/include -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/DerivedSources/i386 -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/DerivedSources -include /var/folders/WG/WGwXclq3EpiVtnRWyHnzf++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-atxjhroumzcewzdihaopxjgndloj/Locations_Prefix.pch -c /Users/jon/Code/Locations/RootViewController.m -o /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/main.o /Users/jon/Code/Locations/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s328936235.706942
-e328936235.856087
-r1
-xCompileC
-xbuild/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/main.o
-x/Users/jon/Code/Locations/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@40"Compile /Users/jon/Code/Locations/main.m328936235#328936235#0(0"0(0#0#32"/Users/jon/Code/Locations/main.m8623022528#1811"    cd /Users/jon/Code/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-generated-files.hmap -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-own-target-headers.hmap -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-all-target-headers.hmap -iquote /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-project-headers.hmap -F/Users/jon/Code/Locations/build/Debug-iphonesimulator -I/Users/jon/Code/Locations/build/Debug-iphonesimulator/include -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/DerivedSources/i386 -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/DerivedSources -include /var/folders/WG/WGwXclq3EpiVtnRWyHnzf++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-atxjhroumzcewzdihaopxjgndloj/Locations_Prefix.pch -c /Users/jon/Code/Locations/main.m -o /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/jon/Code/Locations/MainWindow.xib
-s328936233.839799
-e328936234.436958
-r1
-xCompileXIB
-x/Users/jon/Code/Locations/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib328936233#328936234#0(0"0(0#0#40"/Users/jon/Code/Locations/MainWindow.xib8621814656#533"    cd /Users/jon/Code/Locations    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/MainWindow.nib /Users/jon/Code/Locations/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CDataModelVersionCompile /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations.momd /Users/jon/Code/Locations/Locations.xcdatamodeld
-s328936235.705431
-e328936235.820201
-r1
-xDataModelVersionCompile
-x/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations.momd
-x/Users/jon/Code/Locations/Locations.xcdatamodeld
-lSLF07#2@103"DataModelVersionCompile build/Debug-iphonesimulator/Locations.app/Locations.momd Locations.xcdatamodeld328936235#328936235#0(0"0(0#0#48"/Users/jon/Code/Locations/Locations.xcdatamodeld8620132864#353"    cd /Users/jon/Code/Locations    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/jon/Code/Locations/Locations.xcdatamodeld /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations.momd0#
-
-CGenerateDSYMFile /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app.dSYM /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations
-s328941651.231760
-e328941651.251833
-r1
-xGenerateDSYMFile
-x/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app.dSYM
-x/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Locations.app.dSYM build/Debug-iphonesimulator/Locations.app/Locations328941651#328941651#0(0"0(0#0#77"/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations8604386528#350"    cd /Users/jon/Code/Locations    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations -o /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app.dSYM0#
-
-CLd /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations normal i386
-s328941651.199319
-e328941651.231641
-r1
-xLd
-x/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations
-xnormal
-xi386
-lSLF07#2@82"Link /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations328941651#328941651#0(0"0(0#0#0"27866499440705584#889"    cd /Users/jon/Code/Locations    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/jon/Code/Locations/build/Debug-iphonesimulator -F/Users/jon/Code/Locations/build/Debug-iphonesimulator -filelist /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Objects-normal/i386/Locations.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -o /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Locations0#
-
-CProcessInfoPlistFile /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Info.plist Locations-Info.plist
-s328936233.790275
-e328936233.839693
-r1
-xProcessInfoPlistFile
-x/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Info.plist
-xLocations-Info.plist
-lSLF07#2@28"Process Locations-Info.plist328936233#328936233#0(0"0(0#0#46"/Users/jon/Code/Locations/Locations-Info.plist21392300100943984#446"    cd /Users/jon/Code/Locations    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Locations-Info.plist -genpkginfo /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app/Info.plist0#
-
-CProcessPCH /var/folders/WG/WGwXclq3EpiVtnRWyHnzf++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-atxjhroumzcewzdihaopxjgndloj/Locations_Prefix.pch.gch Locations_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s328936234.437199
-e328936235.705059
-r1
-xProcessPCH
-x/var/folders/WG/WGwXclq3EpiVtnRWyHnzf++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-atxjhroumzcewzdihaopxjgndloj/Locations_Prefix.pch.gch
-xLocations_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile Locations_Prefix.pch328936234#328936235#0(0"0(0#0#46"/Users/jon/Code/Locations/Locations_Prefix.pch8620600736#1714"    cd /Users/jon/Code/Locations    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-generated-files.hmap -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-own-target-headers.hmap -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-all-target-headers.hmap -iquote /Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/Locations-project-headers.hmap -F/Users/jon/Code/Locations/build/Debug-iphonesimulator -I/Users/jon/Code/Locations/build/Debug-iphonesimulator/include -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/DerivedSources/i386 -I/Users/jon/Code/Locations/build/Locations.build/Debug-iphonesimulator/Locations.build/DerivedSources -c /Users/jon/Code/Locations/Locations_Prefix.pch -o /var/folders/WG/WGwXclq3EpiVtnRWyHnzf++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Locations_Prefix-atxjhroumzcewzdihaopxjgndloj/Locations_Prefix.pch.gch0#
-
-CTouch /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app
-s328941651.251934
-e328941651.254878
-r1
-xTouch
-x/Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app
-lSLF07#2@73"Touch /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app328941651#328941651#0(0"0(0#0#0"8604114048#254"    cd /Users/jon/Code/Locations    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jon/Code/Locations/build/Debug-iphonesimulator/Locations.app0#
-
